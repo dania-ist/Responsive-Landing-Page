@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Real State Website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="site-wrap">
+      <header class="header" role="banner">
+        <div class="logo">
+          <a href="#">Homeland</a>
+        </div>
+        <div class="menu-wrap">
+          <ul class="menu">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Property</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li class="cta"><a href="#">Contact</a></li>
+          </ul>
+          <a class="menu-toggle js-menu-toggle" href="#">
+            <i class="bx bx-menu"></i>
+          </a>
+        </div>
+      </header>
+
+      <div class="mobile-menu">
+        <div class="container">
+          <ul class="menu">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Property</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li class="cta"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero">
+        <img
+          src="images/gradient-radial.png"
+          alt="Image"
+          class="gradient-radial"
+        />
+        <img src="images/rounded-lines.png" alt="Image" class="lines" />
+        <div class="hero-inner">
+          <div class="hero-text">
+            <h1>Explore Our Stunning Real Estate Listings Today</h1>
+            <p>
+              Home real estate offers numerous benefits for individuals looking
+              to invest in property or establish a place to call their own.
+            </p>
+
+            <form action="#">
+              <span class="location-icon"><i class="bx bxs-map"></i> </span>
+              <input type="text" placeholder="Search by a location" />
+              <input type="submit" value="Search" class="btn btn-primary" />
+            </form>
+
+            <div class="stats">
+              <div>
+                <strong>93,912</strong>
+                <span>Happy Customer</span>
+              </div>
+              <div>
+                <strong>4.9</strong>
+                <span>Rating Reviews</span>
+              </div>
+              <div>
+                <strong>28</strong>
+                <span>Years in Business</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-img">
+            <div>
+              <img src="images/hero-img-1-min.jpg" alt="joefreycodes.com" />
+              <img
+                src="images/hero-img-1-min.jpg"
+                alt="joefreycodes.com"
+                class="img-shadow hero-img-shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popular-properties">
+        <div class="popular-properties-inner">
+          <div class="popular-properties-heading">
+            <div class="heading-wrap">
+              <h2>Popular Properties</h2>
+              <p>
+                Home real estate offers numerous benefits for individuals
+                looking to invest in property or establish a place to call their
+                own.
+              </p>
+            </div>
+            <div class="custom-swiper-pagination">
+              <a href="#" class="custom-swiper-button-prev"
+                ><i class="bx bx-chevron-left"></i
+              ></a>
+              <a href="#" class="custom-swiper-button-next"
+                ><i class="bx bx-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="swiper swiperProperties custom-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="property-item">
+                  <div class="imgs">
+                    <img src="images/img-1-min.jpg" alt="Image" />
+                    <img
+                      src="images/img-1-min.jpg"
+                      alt="Image"
+                      class="img-shadow"
+                    />
+                  </div>
+                  <strong class="price">$302,201.00</strong>
+                  <h3 class="slide-heading">2506 Nob Hill Avenue N, Seattle</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="property-item">
+                  <div class="imgs">
+                    <img src="images/img-2-min.jpg" alt="Image" />
+                    <img
+                      src="images/img-2-min.jpg"
+                      alt="Image"
+                      class="img-shadow"
+                    />
+                  </div>
+                  <strong class="price">$302,201.00</strong>
+                  <h3 class="slide-heading">2506 Nob Hill Avenue N, Seattle</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="property-item">
+                  <div class="imgs">
+                    <img src="images/img-3-min.jpg" alt="Image" />
+                    <img
+                      src="images/img-3-min.jpg"
+                      alt="Image"
+                      class="img-shadow"
+                    />
+                  </div>
+                  <strong class="price">$302,201.00</strong>
+                  <h3 class="slide-heading">2506 Nob Hill Avenue N, Seattle</h3>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="property-item">
+                  <div class="imgs">
+                    <img src="images/img-4-min.jpg" alt="Image" />
+                    <img
+                      src="images/img-4-min.jpg"
+                      alt="Image"
+                      class="img-shadow"
+                    />
+                  </div>
+                  <strong class="price">$302,201.00</strong>
+                  <h3 class="slide-heading">2506 Nob Hill Avenue N, Seattle</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="property-item">
+                  <div class="imgs">
+                    <img src="images/img-5-min.jpg" alt="Image" />
+                    <img
+                      src="images/img-5-min.jpg"
+                      alt="Image"
+                      class="img-shadow"
+                    />
+                  </div>
+                  <strong class="price">$302,201.00</strong>
+                  <h3 class="slide-heading">2506 Nob Hill Avenue N, Seattle</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="property-item">
+                  <div class="imgs">
+                    <img src="images/img-6-min.jpg" alt="Image" />
+                    <img
+                      src="images/img-6-min.jpg"
+                      alt="Image"
+                      class="img-shadow"
+                    />
+                  </div>
+                  <strong class="price">$302,201.00</strong>
+                  <h3 class="slide-heading">2506 Nob Hill Avenue N, Seattle</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="benefits">
+        <div class="benefits-inner container">
+          <div class="benefits-img">
+            <ul>
+              <li class="active">
+                <img src="images/hero-img-1-min.jpg" alt="joefreycodes.com" />
+                <img
+                  src="images/hero-img-1-min.jpg"
+                  alt="joefreycodes.com"
+                  class="img-shadow"
+                />
+              </li>
+
+              <li>
+                <img src="images/hero-img-2-min.jpg" alt="joefreycodes.com" />
+                <img
+                  src="images/hero-img-2-min.jpg"
+                  alt="joefreycodes.com"
+                  class="img-shadow"
+                />
+              </li>
+
+              <li>
+                <img src="images/hero-img-3-min.jpg" alt="joefreycodes.com" />
+                <img
+                  src="images/hero-img-3-min.jpg"
+                  alt="joefreycodes.com"
+                  class="img-shadow"
+                />
+              </li>
+
+              <li>
+                <img src="images/hero-img-4-min.jpg" alt="joefreycodes.com" />
+                <img
+                  src="images/hero-img-4-min.jpg"
+                  alt="joefreycodes.com"
+                  class="img-shadow"
+                />
+              </li>
+
+              <li>
+                <img src="images/hero-img-5-min.jpg" alt="joefreycodes.com" />
+                <img
+                  src="images/hero-img-5-min.jpg"
+                  alt="joefreycodes.com"
+                  class="img-shadow"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="benefits-text">
+            <div class="benefits-intro-text">
+              <h2 class="heading">Why Choose Homeland?</h2>
+              <p class="desc">
+                Home real estate offers numerous benefits for individuals
+                looking to invest in property or establish a place to call their
+                own. One of the primary advantages is the potential for equity
+                and wealth building over time.
+              </p>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion-item active">
+                <h3>
+                  <a href="#"
+                    ><span class="accordion-heading"
+                      >Equity and Wealth Building</span
+                    >
+                    <span class="accordion-icon"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                          clip-rule="evenodd"
+                        />
+                      </svg> </span
+                  ></a>
+                </h3>
+                <div class="accordion-body">
+                  <div>
+                    <p>
+                      Owning real estate allows you to build equity over time as
+                      you pay down your mortgage, potentially leading to
+                      significant wealth accumulation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3>
+                  <a href="#"
+                    ><span class="accordion-heading">Tax Benefits</span>
+                    <span class="accordion-icon"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                          clip-rule="evenodd"
+                        />
+                      </svg> </span
+                  ></a>
+                </h3>
+                <div class="accordion-body">
+                  <p>
+                    Homeowners can often deduct mortgage interest and property
+                    taxes from their federal income tax, reducing their overall
+                    tax liability.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3>
+                  <a href="#"
+                    ><span class="accordion-heading"
+                      >Stability and Security</span
+                    >
+                    <span class="accordion-icon"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                          clip-rule="evenodd"
+                        />
+                      </svg> </span
+                  ></a>
+                </h3>
+                <div class="accordion-body">
+                  <p>
+                    Owning a home provides stability, security, and a sense of
+                    community, as you're not subject to frequent rent increases
+                    or potential evictions.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3>
+                  <a href="#"
+                    ><span class="accordion-heading">Pride of Ownership</span>
+                    <span class="accordion-icon"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                          clip-rule="evenodd"
+                        />
+                      </svg> </span
+                  ></a>
+                </h3>
+                <div class="accordion-body">
+                  <p>
+                    Homeownership allows you to customize and personalize your
+                    living space, giving you a sense of pride and satisfaction.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3>
+                  <a href="#"
+                    ><span class="accordion-heading"
+                      >Rental Income (Investment Properties)</span
+                    >
+                    <span class="accordion-icon"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                          clip-rule="evenodd"
+                        />
+                      </svg> </span
+                  ></a>
+                </h3>
+                <div class="accordion-body">
+                  <p>
+                    generate rental income, which can provide a steady cash flow
+                    and potential financial gain over time.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-section">
+        <div class="container">
+          <div class="features-heading">
+            <h2 class="heading">Our Services</h2>
+            <p class="desc">
+              Home real estate offers numerous benefits for individuals looking
+              to invest in property or establish a place to call their own. One
+              of the primary advantages is the potential for equity and wealth
+              building over time.
+            </p>
+          </div>
+
+          <div class="features">
+            <img
+              src="images/gradient-min.png"
+              alt="Image"
+              class="bg-gradient"
+            />
+            <div class="feature">
+              <div class="icon">
+                <i class="bx bxs-user"></i>
+              </div>
+              <div class="text">
+                <h3>Real Estate Agents</h3>
+                <p>
+                  These professionals help buyers and sellers navigate the
+                  buying and selling process, assisting with negotiations,
+                  paperwork, and property searches.
+                </p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="icon">
+                <i class="bx bxs-building-house"></i>
+              </div>
+              <div class="text">
+                <h3>Property Management</h3>
+                <p>
+                  These professionals help buyers and sellers navigate the
+                  buying and selling process, assisting with negotiations,
+                  paperwork, and property searches.
+                </p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="icon">
+                <i class="bx bx-home-smile"></i>
+              </div>
+              <div class="text">
+                <h3>Home Appraisers</h3>
+                <p>
+                  Appraisers determine the fair market value of a property,
+                  which is essential for mortgage lenders and buyers to assess a
+                  property's worth accurately.
+                </p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="icon">
+                <i class="bx bx-home"></i>
+              </div>
+              <div class="text">
+                <h3>Home Inspections</h3>
+                <p>
+                  Before purchasing a home, buyers often hire home inspectors to
+                  assess the property's condition and identify potential issues
+                  or needed repairs.
+                </p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="icon">
+                <i class="bx bxs-cog"></i>
+              </div>
+              <div class="text">
+                <h3>Escrow Services</h3>
+                <p>
+                  Escrow companies facilitate the transfer of funds and
+                  documents during the real estate transaction process, ensuring
+                  a secure and smooth..
+                </p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="icon">
+                <i class="bx bxs-briefcase"></i>
+              </div>
+              <div class="text">
+                <h3>Real Estate Lawyers</h3>
+                <p>
+                  Attorneys specializing in real estate law can provide legal
+                  advice and assistance during property transactions, protecting
+                  the interests of buyers and sellers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-section">
+        <div class="container">
+          <div class="cta-inner">
+            <img src="images/img-6-min.jpg" alt="joefreycodes.com" />
+            <div class="cta-text">
+              <h3 class="sub-heading">Easy to generate incomes</h3>
+              <h2>
+                Real Estate can Generate Rental Income if Utilized as Rental
+                Properties.
+              </h2>
+              <p class="description">
+                For those interested in investment opportunities, home real
+                estate can generate rental income if utilized as rental
+                properties. This passive income stream can provide financial
+                stability and potential returns on investment over time.
+              </p>
+              <div class="numbers">
+                <div>
+                  <strong>$799M+</strong>
+                  <span>Investment over time</span>
+                </div>
+                <div>
+                  <strong>27</strong>
+                  <span>Years in business</span>
+                </div>
+                <div>
+                  <strong>400+</strong>
+                  <span>Real estate egents</span>
+                </div>
+              </div>
+              <p>
+                <a href="#" class="cta-btn">Get Started</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clients-section">
+        <div class="container">
+          <div class="heading">
+            <h2>Trusted By Many Major Companies</h2>
+          </div>
+          <ul class="logos">
+            <li>
+              <a href="#"
+                ><img src="images/logo-adidas.svg" alt="joefreycodes.com"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/logo-airbnb.svg" alt="joefreycodes.com"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/logo-jeep.svg" alt="joefreycodes.com"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/logo-netflix.svg" alt="joefreycodes.com"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/logo-microsoft.svg" alt="joefreycodes.com"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/logo-puma.svg" alt="joefreycodes.com"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="footer" role="contentinfo">
+        <div class="container">
+          <div class="subscribe-email">
+            <form>
+              <i class="bx bx-envelope"></i>
+              <input type="email" placeholder="Enter email address" /><input
+                value="Subscribe"
+                type="submit"
+              />
+            </form>
+          </div>
+          <div class="footer-inner">
+            <div class="footer-about">
+              <h3>About us</h3>
+              <p class="desc">
+                Pride of ownership is another intangible yet significant
+                benefit. Homeowners have the freedom to personalize and
+                customize their living spaces to suit their preferences,
+                fostering a sense of accomplishment and attachment to their
+                home.
+              </p>
+              <p><a href="#" class="cta-btn">Learn More</a></p>
+            </div>
+            <div class="footer-links">
+              <div class="">
+                <h3>Company</h3>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li class="hiring">
+                    <a href="#"
+                      ><span>Careers</span>
+                      <span class="badge">We are hiring</span></a
+                    >
+                  </li>
+                  <li><a href="#">Testimonials</a></li>
+                </ul>
+              </div>
+
+              <div class="">
+                <h3>Properties</h3>
+                <ul>
+                  <li><a href="#">Properties for Sale</a></li>
+                  <li><a href="#">Properties for Rent</a></li>
+                  <li><a href="#">Commercial Real Estate</a></li>
+                  <li><a href="#">Agents or Team</a></li>
+                  <li><a href="#">Mortgage Calculator</a></li>
+                  <li><a href="#">Property Search</a></li>
+                  <li><a href="#">Property Management</a></li>
+                </ul>
+              </div>
+
+              <div class="">
+                <h3>Resources</h3>
+                <ul>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Forum</a></li>
+                  <li><a href="#">Frequently Asked Questions</a></li>
+                  <li><a href="#">Knowledge Base</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="terms-social">
+            <div class="links">
+              <a class="" href="#">Privacy Policy</a>
+              <a class="" href="#">Terms and Conditions</a>
+              <a class="" href="#">Legal</a>
+            </div>
+            <div class="social-wrap">
+              <ul class="social">
+                <li>
+                  <a href="#"><i class="bx bxl-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bx bxl-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bx bxl-facebook"></i></a>
+                </li>
+              </ul>
+              <div class="language">
+                <div class="lang-list-warp">
+                  <ul class="lang-list">
+                    <li class="active">
+                      <a href="#">
+                        <span class="flag"
+                          ><img src="images/flag-us.svg" alt="US lang"
+                        /></span>
+                        <span class="label">English (US)</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="flag"
+                          ><img src="images/flag-de.svg" alt="DE lang"
+                        /></span>
+                        <span class="label">Deutsch</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="flag"
+                          ><img src="images/flag-cn.svg" alt="CN lang"
+                        /></span>
+                        <span class="label">中文 (繁體)</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <a href="#" class="select-lang js-select-lang">
+                  <span>
+                    <span class="flag">
+                      <img src="images/flag-us.svg" alt="US lang" />
+                    </span>
+                    <span class="label">English (US)</span>
+                    <span class="icon">
+                      <i class="bx bx-chevron-down"></i>
+                    </span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            &copy; 2023 Homeland. All rights reserved. Design by
+            <a href="#">joefreycodes.com</a>
+          </div>
+          ""
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
